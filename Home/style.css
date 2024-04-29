@@ -21,6 +21,7 @@ box-sizing: border-box;
     --cor-secundaria: #ec5224;
     --cor-terciaria: #f5a11a;
     --cor-black: #000000;
+    --cor-white: #ffffff;
 
 }
 
@@ -118,4 +119,23 @@ header {
     top: 0px;
     right: 160px;
 
+}
+
+.announcement {
+
+    background-color: var(--cor-black);
+    max-width: 1024px;
+    width: 100%;
+
+} 
+
+.announcement div h2 {
+
+    color: var(--cor-white);
+
+}
+
+.announcement div {
+
+    margin-left: 600px;
 }
