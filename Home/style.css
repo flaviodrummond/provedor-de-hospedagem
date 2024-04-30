@@ -173,16 +173,54 @@ header {
 
 }
 
-#git informacoes {
+#informacoes {
 
     padding: 100px 0;
     text-align: center;
     
 }
 
-.informacoes h2 {
+#informacoes h2 {
 
     width: 900px;
-    padding: 100px 0;
+    font-size: 32px;
+    margin: 0 auto 60px;
+
+}
+
+#informacoes span {
+
+    color: var(--cor-principal);
+
+}
+
+#infomacoes div {
+
+    position: relative;
+
+}
+
+#informacoes div {
+
+    position: absolute;
+    width: 33%;
+
+}
+
+#informacoes div img {
+
+    width: 100px;
+
+}
+
+#informacoes .card2 {
+
+    left: 343px;
+   
+}
+
+#informacoes .card3 {
+
+    right: 0;
 
 }
