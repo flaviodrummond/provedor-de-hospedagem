@@ -194,24 +194,21 @@ header {
 
 }
 
-#infomacoes div {
+#informacoes div{
 
     position: relative;
+    height: 240px;
 
 }
 
-#informacoes div {
+#informacoes .card1 {
 
     position: absolute;
     width: 33%;
+    top: 0;
 
 }
 
-#informacoes div img {
-
-    width: 100px;
-
-}
 
 #informacoes .card2 {
 
@@ -222,5 +219,11 @@ header {
 #informacoes .card3 {
 
     right: 0;
+
+}
+
+#informacoes div img {
+
+    width: 100px;
 
 }
