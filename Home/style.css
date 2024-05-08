@@ -194,14 +194,14 @@ header {
 
 }
 
-#informacoes div{
+.sessao {
 
     position: relative;
     height: 240px;
 
 }
 
-#informacoes .card1 {
+.sessao div {
 
     position: absolute;
     width: 33%;
@@ -210,20 +210,26 @@ header {
 }
 
 
-#informacoes .card2 {
+.card2 {
 
-    left: 343px;
+    left: 543px;
    
 }
 
-#informacoes .card3 {
+.card3 {
 
     right: 0;
 
 }
 
-#informacoes div img {
+.sessao div img {
 
     width: 100px;
+
+}
+
+.sessao div h3 {
+
+    margin: 20px;
 
 }
